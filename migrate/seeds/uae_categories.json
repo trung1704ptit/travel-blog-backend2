@@ -1,0 +1,299 @@
+[
+  {
+    "name": "UAE Travel Guide",
+    "slug": "uae-travel-guide",
+    "description": "Complete guide to traveling in United Arab Emirates",
+    "children": [
+      {
+        "name": "Dubai",
+        "slug": "dubai",
+        "description": "The city of superlatives and modern marvels"
+      },
+      {
+        "name": "Abu Dhabi",
+        "slug": "abu-dhabi",
+        "description": "Capital city rich in culture and heritage"
+      },
+      {
+        "name": "Sharjah",
+        "slug": "sharjah",
+        "description": "Cultural capital of UAE with museums and heritage"
+      },
+      {
+        "name": "Ras Al Khaimah",
+        "slug": "ras-al-khaimah",
+        "description": "Mountain adventures and beach relaxation"
+      },
+      {
+        "name": "Fujairah",
+        "slug": "fujairah",
+        "description": "East coast beauty with mountains and beaches"
+      },
+      {
+        "name": "Ajman",
+        "slug": "ajman",
+        "description": "Peaceful beaches and traditional charm"
+      },
+      {
+        "name": "Umm Al Quwain",
+        "slug": "umm-al-quwain",
+        "description": "Hidden gem with water sports and wildlife"
+      },
+      {
+        "name": "Best Time to Visit",
+        "slug": "best-time-visit",
+        "description": "Weather guide and seasonal tips for UAE travel"
+      },
+      {
+        "name": "Visa & Travel Requirements",
+        "slug": "visa-travel-requirements",
+        "description": "Entry requirements and visa information for UAE"
+      },
+      {
+        "name": "Transportation in UAE",
+        "slug": "transportation-uae",
+        "description": "Metro, taxis, car rentals and getting around UAE"
+      }
+    ]
+  },
+  {
+    "name": "Entertainment & Nightlife",
+    "slug": "entertainment-nightlife",
+    "description": "Dubai and UAE entertainment, clubs, and nightlife experiences",
+    "children": [
+      {
+        "name": "Nightclubs & Bars",
+        "slug": "nightclubs-bars",
+        "description": "Top nightlife venues in Dubai and Abu Dhabi"
+      },
+      {
+        "name": "Live Music & Concerts",
+        "slug": "live-music-concerts",
+        "description": "Concert venues and live music performances"
+      },
+      {
+        "name": "Cinema & Theaters",
+        "slug": "cinema-theaters",
+        "description": "Movie theaters and theatrical performances"
+      },
+      {
+        "name": "Beach Clubs",
+        "slug": "beach-clubs",
+        "description": "Exclusive beach clubs and pool parties"
+      },
+      {
+        "name": "Comedy Shows",
+        "slug": "comedy-shows",
+        "description": "Stand-up comedy and entertainment shows"
+      },
+      {
+        "name": "Rooftop Lounges",
+        "slug": "rooftop-lounges",
+        "description": "Sky-high bars with stunning city views"
+      }
+    ]
+  },
+  {
+    "name": "Famous Places & Landmarks",
+    "slug": "famous-places-landmarks",
+    "description": "Iconic landmarks and must-visit places in UAE",
+    "children": [
+      {
+        "name": "Burj Khalifa",
+        "slug": "burj-khalifa",
+        "description": "World's tallest building with observation decks"
+      },
+      {
+        "name": "Burj Al Arab",
+        "slug": "burj-al-arab",
+        "description": "Iconic 7-star luxury hotel"
+      },
+      {
+        "name": "Sheikh Zayed Grand Mosque",
+        "slug": "sheikh-zayed-mosque",
+        "description": "Stunning white marble mosque in Abu Dhabi"
+      },
+      {
+        "name": "Palm Jumeirah",
+        "slug": "palm-jumeirah",
+        "description": "Man-made island shaped like a palm tree"
+      },
+      {
+        "name": "Dubai Marina",
+        "slug": "dubai-marina",
+        "description": "Waterfront district with skyscrapers"
+      },
+      {
+        "name": "Dubai Fountain",
+        "slug": "dubai-fountain",
+        "description": "World's largest choreographed fountain"
+      },
+      {
+        "name": "Louvre Abu Dhabi",
+        "slug": "louvre-abu-dhabi",
+        "description": "Art and civilization museum"
+      },
+      {
+        "name": "Dubai Frame",
+        "slug": "dubai-frame",
+        "description": "Picture frame shaped landmark"
+      }
+    ]
+  },
+  {
+    "name": "UAE Cuisine & Dining",
+    "slug": "uae-cuisine-dining",
+    "description": "Traditional Emirati food and international dining experiences",
+    "children": [
+      {
+        "name": "Traditional Emirati Food",
+        "slug": "traditional-emirati-food",
+        "description": "Authentic local dishes and flavors"
+      },
+      {
+        "name": "Arabic & Middle Eastern",
+        "slug": "arabic-middle-eastern",
+        "description": "Lebanese, Syrian, and regional cuisine"
+      },
+      {
+        "name": "Fine Dining Restaurants",
+        "slug": "fine-dining-restaurants",
+        "description": "Michelin-starred and luxury dining"
+      },
+      {
+        "name": "Street Food & Cafes",
+        "slug": "street-food-cafes",
+        "description": "Local eateries and casual dining"
+      },
+      {
+        "name": "International Cuisine",
+        "slug": "international-cuisine",
+        "description": "Asian, European, and world flavors"
+      },
+      {
+        "name": "Brunch & Breakfast Spots",
+        "slug": "brunch-breakfast",
+        "description": "Friday brunch and breakfast venues"
+      },
+      {
+        "name": "Desserts & Sweets",
+        "slug": "desserts-sweets",
+        "description": "Arabic sweets and international desserts"
+      }
+    ]
+  },
+  {
+    "name": "Gaming & Casinos",
+    "slug": "gaming-casinos",
+    "description": "Gaming lounges, entertainment centers, and casino experiences",
+    "children": [
+      {
+        "name": "Gaming Lounges",
+        "slug": "gaming-lounges",
+        "description": "eSports centers and gaming cafes"
+      },
+      {
+        "name": "VR Experiences",
+        "slug": "vr-experiences",
+        "description": "Virtual reality gaming centers"
+      },
+      {
+        "name": "Arcade Games",
+        "slug": "arcade-games",
+        "description": "Family entertainment centers"
+      },
+      {
+        "name": "Casino Hotels",
+        "slug": "casino-hotels",
+        "description": "International casino resorts near UAE"
+      },
+      {
+        "name": "Indoor Gaming Parks",
+        "slug": "indoor-gaming-parks",
+        "description": "Theme park style gaming attractions"
+      }
+    ]
+  },
+  {
+    "name": "Shopping & Malls",
+    "slug": "shopping-malls",
+    "description": "World-class shopping destinations and souks in UAE",
+    "children": [
+      {
+        "name": "Dubai Mall",
+        "slug": "dubai-mall",
+        "description": "World's largest shopping mall"
+      },
+      {
+        "name": "Mall of the Emirates",
+        "slug": "mall-of-emirates",
+        "description": "Luxury shopping with indoor ski slope"
+      },
+      {
+        "name": "Gold & Spice Souks",
+        "slug": "gold-spice-souks",
+        "description": "Traditional markets in Old Dubai"
+      },
+      {
+        "name": "Luxury Boutiques",
+        "slug": "luxury-boutiques",
+        "description": "High-end designer stores"
+      },
+      {
+        "name": "Electronics & Gadgets",
+        "slug": "electronics-gadgets",
+        "description": "Tech shopping destinations"
+      },
+      {
+        "name": "Fashion & Clothing",
+        "slug": "fashion-clothing",
+        "description": "Fashion retail and local designers"
+      }
+    ]
+  },
+  {
+    "name": "Adventure & Sports",
+    "slug": "adventure-sports",
+    "description": "Outdoor adventures and sports activities in UAE",
+    "children": [
+      {
+        "name": "Desert Safari",
+        "slug": "desert-safari",
+        "description": "Dune bashing and desert experiences"
+      },
+      {
+        "name": "Water Sports",
+        "slug": "water-sports",
+        "description": "Jet skiing, diving, and water activities"
+      },
+      {
+        "name": "Skydiving",
+        "slug": "skydiving",
+        "description": "Tandem skydiving over Palm Jumeirah"
+      },
+      {
+        "name": "Indoor Skiing",
+        "slug": "indoor-skiing",
+        "description": "Ski Dubai and snow activities"
+      },
+      {
+        "name": "Theme Parks",
+        "slug": "theme-parks",
+        "description": "IMG Worlds, Ferrari World, and more"
+      },
+      {
+        "name": "Golf Courses",
+        "slug": "golf-courses",
+        "description": "Championship golf courses"
+      },
+      {
+        "name": "Hiking & Camping",
+        "slug": "hiking-camping",
+        "description": "Mountain trails and camping spots"
+      }
+    ]
+  }
+]
+
+
+
