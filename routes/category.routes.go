@@ -34,6 +34,6 @@ func (cc *CategoryRouteController) CategoryRoute(rg *gin.RouterGroup) {
 	// Protected routes (authentication required)
 	router.Use(middleware.DeserializeUser())
 	router.POST("", cc.categoryController.CreateCategory)
-	router.PUT("/:categoryId", cc.categoryController.UpdateCategory)
+	router.PATCH("/:categoryId", cc.categoryController.UpdateCategory)
 	router.DELETE("/:categoryId", cc.categoryController.DeleteCategory)
 }

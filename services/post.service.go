@@ -120,6 +120,15 @@ func (s *PostService) UpdatePost(postID string, payload *models.UpdatePostReques
 	if payload.ReadingTimeMinutes != nil {
 		existingPost.ReadingTimeMinutes = *payload.ReadingTimeMinutes
 	}
+	if payload.Views != nil {
+		existingPost.Views = *payload.Views
+	}
+	if payload.Likes != nil {
+		existingPost.Likes = *payload.Likes
+	}
+	if payload.Comments != nil {
+		existingPost.Comments = *payload.Comments
+	}
 
 	// Handle publishing status
 	if payload.Published != nil {

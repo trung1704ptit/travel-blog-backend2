@@ -52,9 +52,9 @@ type Post struct {
 	Author     User       `gorm:"foreignKey:AuthorID;references:ID" json:"author,omitempty"`
 
 	// Metrics
-	ReadingTimeMinutes int `gorm:"default:0" json:"reading_time_minutes"`
-	Views              int `gorm:"default:0" json:"views"`
-	Likes              int `gorm:"default:0" json:"likes"`
+	ReadingTimeMinutes int `gorm:"default:3" json:"reading_time_minutes"`
+	Views              int `gorm:"default:23" json:"views"`
+	Likes              int `gorm:"default:99" json:"likes"`
 	Comments           int `gorm:"default:0" json:"comments"`
 
 	// Publishing
@@ -99,6 +99,9 @@ type UpdatePostRequest struct {
 	Keywords           *[]string `json:"keywords,omitempty"`
 	Tags               *[]string `json:"tags,omitempty"`
 	CategoryIDs        *[]string `json:"category_ids,omitempty"`
+	Views              *int      `json:"views,omitempty"`
+	Likes              *int      `json:"likes,omitempty"`
+	Comments           *int      `json:"comments,omitempty"`
 	ReadingTimeMinutes *int      `json:"reading_time_minutes,omitempty"`
 	Published          *bool     `json:"published,omitempty"`
 }

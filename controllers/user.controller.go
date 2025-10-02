@@ -25,3 +25,54 @@ func (uc *UserController) GetMe(ctx *gin.Context) {
 
 	ctx.JSON(http.StatusOK, gin.H{"status": "success", "data": gin.H{"user": userResponse}})
 }
+
+// GetUsers returns all users (admin only)
+func (uc *UserController) GetUsers(ctx *gin.Context) {
+	users, err := uc.userService.GetUsers()
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": err.Error()})
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{"status": "success", "data": gin.H{"users": users}})
+}
+
+// UpdateUser updates a user by ID (admin only)
+func (uc *UserController) UpdateUser(ctx *gin.Context) {
+	userID := ctx.Param("id")
+
+	var input models.UpdateUserInput
+	if err := ctx.ShouldBindJSON(&input); err != nil {
+		ctx.JSON(http.StatusBadRequest, gin.H{"status": "fail", "message": err.Error()})
+		return
+	}
+
+	user, err := uc.userService.UpdateUser(userID, &input)
+	if err != nil {
+		if err.Error() == "user not found" {
+			ctx.JSON(http.StatusNotFound, gin.H{"status": "fail", "message": err.Error()})
+		} else {
+			ctx.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": err.Error()})
+		}
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{"status": "success", "data": gin.H{"user": user}})
+}
+
+// DeleteUser deletes a user by ID (admin only)
+func (uc *UserController) DeleteUser(ctx *gin.Context) {
+	userID := ctx.Param("id")
+
+	err := uc.userService.DeleteUser(userID)
+	if err != nil {
+		if err.Error() == "user not found" {
+			ctx.JSON(http.StatusNotFound, gin.H{"status": "fail", "message": err.Error()})
+		} else {
+			ctx.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": err.Error()})
+		}
+		return
+	}
+
+	ctx.JSON(http.StatusOK, gin.H{"status": "success", "message": "User deleted successfully"})
+}

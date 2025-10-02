@@ -1,3 +1,10 @@
+### Development Setup
+Install [Air](https://github.com/air-verse/air) for live reload:
+
+```bash
+go install github.com/air-verse/air@latest
+```
+
 # Build Golang RESTful API with Gorm, Gin and Postgres
 
 ## 1. How to Setup Golang GORM RESTful API Project with Postgres

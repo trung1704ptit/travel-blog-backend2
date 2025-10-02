@@ -19,7 +19,7 @@ func (pc *PostRouteController) PostRoute(rg *gin.RouterGroup) {
 	router := rg.Group("posts")
 
 	// Public routes (no authentication required)
-	router.GET("/", pc.postController.FindPosts)
+	router.GET("", pc.postController.FindPosts)
 	router.GET("/search", pc.postController.SearchPosts)
 
 	// Most blogs/CMSs use slug as the primary identifier
@@ -28,8 +28,8 @@ func (pc *PostRouteController) PostRoute(rg *gin.RouterGroup) {
 
 	// Protected routes (authentication required)
 	router.Use(middleware.DeserializeUser())
-	router.POST("/", pc.postController.CreatePost)
-	router.PUT("/:postId", pc.postController.UpdatePost)
+	router.POST("", pc.postController.CreatePost)
+	router.PATCH("/:postId", pc.postController.UpdatePost)
 	router.DELETE("/:postId", pc.postController.DeletePost)
 	router.POST("/:postId/like", pc.postController.LikePost)
 }
